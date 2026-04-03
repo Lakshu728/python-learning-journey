@@ -1,0 +1,60 @@
+🔹 1. What is a For Loop?
+A for loop executes a set of statements for each item in a sequence.A for loop in Python is used to repeat a block of code multiple times by iterating over a sequence (like a list, string, tuple, or range).
+✅ Syntax:
+for variable in sequence:
+    # code block
+
+🔹 2. Simple Examples
+▶ Example 1: Print numbers from 1 to 5
+for i in range(1, 6):
+    print(i)
+👉 Output:1 2 3 4 5
+
+▶ Example 2: Print each character in a string
+name = "Python"
+for ch in name:
+    print(ch)
+👉 Output: P y t h o n
+
+▶ Example 3: Loop through a list
+numbers = [10, 20, 30]
+for num in numbers:
+    print(num)
+▶ Example 4: Sum of numbers
+total = 0
+for i in range(1, 6):
+    total += i
+print(total)
+👉 Output: 15
+
+🔹 3. Uses of For Loop
+You use a for loop when:
+✔ You want to repeat something a fixed number of times
+✔ You want to loop through data (list, string, etc.)
+✔ You want to perform calculations (sum, average, etc.)
+✔ You want to process items one by one
+
+🔹 5. Important Concepts
+✅ range() function
+range(start, stop, step)
+Examples:
+range(5)        # 0 to 4
+range(1, 6)     # 1 to 5
+range(1, 10, 2) # 1,3,5,7,9
+
+🔹 6. Practice Questions 🧠
+🔰 Basic Level :-
+Print numbers from 1 to 10
+Print even numbers from 1 to 20
+Print sum of first 10 numbers
+Print multiplication table of 5
+🔰 Medium Level :-
+Count numbers divisible by 3 from 1 to 50
+Find factorial of a number
+Reverse a string using loop
+Print all elements of a list in reverse
+🔰 Advanced Level :-
+Check if a number is prime
+Print Fibonacci series
+Find largest number in a list
+Count vowels in a string
