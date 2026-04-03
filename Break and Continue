@@ -1,0 +1,66 @@
+🔹 1. break Statement
+👉 Definition:
+break is used to exit (stop) the loop completely when a condition is met.
+
+👉 How it works:
+As soon as Python sees break, it immediately stops the loop
+Control goes to the next statement after the loop
+✅ Example:
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+👉 Output:
+1
+2
+👉 When i == 3, loop stops completely.
+
+🎯 Use Cases:
+Stop loop when condition is satisfied
+Searching (stop when item found)
+Infinite loop control (while True loop)
+⚠️ Common Errors:
+
+❌ Wrong indentation
+for i in range(5):
+print(i)
+break   # Error
+✔️ Fix:
+for i in range(5):
+    print(i)
+    break
+
+🔹 2. continue Statement
+👉 Definition:
+continue is used to skip the current iteration and move to the next iteration of the loop.
+
+✅ Example:
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+👉 Output:
+1
+2
+4
+5
+👉 When i == 3, it skips that iteration.
+
+🎯 Use Cases:
+Skip unwanted values
+Ignore specific conditions
+Filtering data in loops
+
+🧠 Practice Questions
+🔰 Basic Level
+Print numbers from 1 to 10 but stop when number is 7
+Print numbers from 1 to 10 but skip number 5
+Print only odd numbers from 1 to 10 using continue
+⚙️ Intermediate Level
+Take numbers from 1 to 20 and stop when divisible by 9
+Print numbers from 1 to 15 but skip multiples of 3
+Find first number divisible by both 5 and 7 (use break)
+🚀 Advanced Level
+Ask user to enter numbers until they enter 0 (use break)
+Print all numbers from 1 to 50 except numbers divisible by 2 and 5
+Create a loop that keeps asking password until correct (use break)
