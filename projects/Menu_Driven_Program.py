@@ -38,10 +38,10 @@ while True:
                 print("Element not found.")  
                 
         case 5 :
-            number.sort()   
+            number.sort()     
             print("List sorted.",number)   
             
-        case 6:
+        case 6:  
             number.clear()  
             print("List cleared.")
 
